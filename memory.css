@@ -1,0 +1,35 @@
+body {
+    background: url("./images/bg.jpg");
+}
+
+.mainBox {
+    display: inline-block;
+    position: fixed;
+}
+
+.width {
+    display: block;
+}
+
+.card {
+    border: solid #e9eeff 1px;
+    display: inline-block;
+    height: 250px;
+    width: 150px;
+    margin: 4px;
+    background: url("./images/texture.jpg");
+    box-shadow: 5px 5px 5px #ffa864;
+    background-repeat: round;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.answered{
+    opacity:30;
+}
+
+.newGameButton{
+    margin-left: 5px;
+    vertical-align: middle;
+    box-shadow: 3px 3px 3px #2576ff;
+}
